@@ -5,7 +5,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 import pickle
-loaded_model = pickle.load(open('/home/adi/Desktop/ai_prj/demo/HBEATr/adv_app/deploy/random_forest_model_2', 'rb'))
+loaded_model = pickle.load(open('random_forest_model_2', 'rb'))
 
 def index(request):
     return render(request,'index.html')
