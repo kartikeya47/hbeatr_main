@@ -12,7 +12,7 @@
   <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="/home/adi/Desktop/ai_prj/demo/HBEATr/adv_app/deploy/logo1.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        <img src="logo1.png" alt="" width="30" height="24">
         HBEATr Advance Section
       </a>
     </div>
@@ -29,27 +29,33 @@
     <input type="trestbps" class="form-control" id="floatingtrestbps" placeholder="trestbps" name="trestbps">
     <label for="floatingtrestbps">Please enter your resting blood pressure</label>
   </div>
+  <p> </p>
   <div class="form-floating">
     <input type="chol" class="form-control" id="floatingchol" placeholder="chol" name="chol">
     <label for="floatingchol">Please enter your cholesterol</label>
   </div>
+  <p> </p>
   <div class="form-floating">
     <input type="thalach" class="form-control" id="floatingthalach" placeholder="thalach" name="thalach">
     <label for="floatingthalach">Please enter your maximum heart rate</label>
   </div>
+  <p> </p>
   <div class="form-floating">
     <input type="oldpeak" class="form-control" id="floatingoldpeak" placeholder="oldpeak" name="oldpeak">
     <label for="floatingoldpeak">ST depression induced by exercise | rest</label>
   </div>
+  <p> </p>
   <div class="form-floating">
     <input type="ca" class="form-control" id="floatingca" placeholder="ca" name="ca">
     <label for="floatingca">Please enter number of major vessels</label>
   </div>
+  <p> </p>
   <select class="form-select" aria-label="Default select example" name="sex">
     <option selected>Please select your sex</option>
     <option value="1">Male</option>
     <option value="2">Female</option>
   </select>
+  <p> </p>
   <select class="form-select" aria-label="Default select example" name="exp">
     <option selected>Please select the chest pain experienced</option>
     <option value="1">Typical angina</option>
@@ -57,12 +63,13 @@
     <option value="3">Non-anginal pain</option>
     <option value="4">Asymptomatic</option>
   </select>
+  <p> </p>
   <!-- fbs: The person's fasting blood sugar (> 120 mg/dl, 1 = true; 0 = false) -->
   <div class="form-floating">
     <input type="fbs" class="form-control" id="fbs" placeholder="fbs" name="fbs">
     <label for="fbs">Please enter fasting blood sugar</label>
   </div>
-
+  <p> </p>
   <!-- estecg: Resting electrocardiographic measurement (0 = normal, 1 = having ST-T wave abnormality, 2 = showing probable or definite left ventricular hypertrophy by Estes' criteria) -->
   <select class="form-select" aria-label="Default select example" name="elec">
     <option selected>Please select Resting electrocardiographic measurement</option>
@@ -70,14 +77,14 @@
     <option value="1">Having ST-T wave Abnormality</option>
     <option value="2">Probable or definite left ventricular hypertrophy by Estes'criteria</option>
   </select>
-
+  <p> </p>
   <!-- exang: Exercise induced angina (1 = yes; 0 = no) -->
   <select class="form-select" aria-label="Default select example" name="angina">
     <option selected>Exercise induced angina</option>
     <option value="0">No</option>
     <option value="1">Yes</option>
   </select>
-
+  <p> </p>
   <!-- slope: the slope of the peak exercise ST segment (Value 1: upsloping, Value 2: flat, Value 3: downsloping) -->
   <select class="form-select" aria-label="Default select example" name="st">
     <option selected>Slope of the peak exercise ST segment</option>
@@ -85,7 +92,7 @@
     <option value="2">Flat</option>
     <option value="3">Downsloping</option>
   </select>
-
+  <p> </p>
 
   <!-- thal: A blood disorder called thalassemia (3 = normal; 6 = fixed defect; 7 = reversable defect) -->
   <select class="form-select" aria-label="Default select example" name="st2">
@@ -94,6 +101,7 @@
     <option value="6">Fixed Defect</option>
     <option value="7">Reversable Defect</option>
   </select>
+  <br></br>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
