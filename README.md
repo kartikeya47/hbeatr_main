@@ -3,7 +3,7 @@
 
 # Requirements 
 
-<!-- asgiref==3.4.1
+asgiref==3.4.1
 astroid==2.9.0
 Django==3.2.9
 djangorestframework==3.12.4
@@ -25,4 +25,3 @@ typing_extensions==4.0.0
 wrapt==1.13.3
 gunicorn==20.1.0
 whitenoise==5.3.0
- -->
