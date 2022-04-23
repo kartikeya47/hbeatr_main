@@ -1,4 +1,4 @@
-s. After thorough research and multiple run throughs of the aforementioned classifiers and tuning the models, the Random Forest classifier has outperformed the other algorithms and has yielded the 
+After thorough research and multiple run throughs of the aforementioned classifiers and tuning the models, the Random Forest classifier has outperformed the other algorithms and has yielded the 
 highest accuracy of 93.4% with sensitivity 89%. Machine learning algorithms and methodologies have proven to be quite successful in predicting heart ailments, but there is still 
 a lot of study to be done on how to deal with high dimensional data and overfitting. A lot of research may be done on the best algorithm ensemble to employ for a 
 particular sort of data. Based on upon the research, it can also be concluded that heart points can be viable data point which can be served as a measure for classification of 
