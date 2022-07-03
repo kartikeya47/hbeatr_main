@@ -1,7 +1,6 @@
 # hbeatr_main
 
-
-# Requirements 
+#### Requirements 
 
 asgiref==3.4.1
 astroid==2.9.0
@@ -25,3 +24,9 @@ typing_extensions==4.0.0
 wrapt==1.13.3
 gunicorn==20.1.0
 whitenoise==5.3.0
+
+#### For running the WebApp, type the below command in the terminal:
+
+```
+python manage.py runserver
+```
